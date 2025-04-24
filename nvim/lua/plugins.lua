@@ -66,9 +66,14 @@ return {
            {
               "<leader>t",
               "<cmd>ToggleTerm direction=float<CR>",
-              desc = "Terminal",
+              desc = "Terminal (float)",
            },
-      },
+           {
+              "<leader>a",
+              "<cmd>ToggleTerm direction=vertical size=60<CR>",
+              desc = "Terminal (vertical)",
+           },
+       },
     },
     {'neovim/nvim-lspconfig'},
     {'hrsh7th/nvim-cmp'},
